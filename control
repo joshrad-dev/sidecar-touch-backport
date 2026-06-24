@@ -1,6 +1,6 @@
 Package: dev.joshrad.sidecar-touch-tweak
 Name: sidecar-touch-tweak
-Version: 0.0.1
+Version: 1.0.0
 Architecture: iphoneos-arm
 Description: A tweak that enables the native Sidecar touch interface on older iPadOS versions
 Maintainer: joshrad.dev
