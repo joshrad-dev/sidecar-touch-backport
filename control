@@ -2,8 +2,8 @@ Package: dev.joshrad.sidecar-touch-tweak
 Name: sidecar-touch-tweak
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: Joshua Daneshrad
-Author: Joshua Daneshrad
+Description: A tweak that enables the native Sidecar touch interface on older iPadOS versions
+Maintainer: joshrad.dev
+Author: joshrad.dev
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
