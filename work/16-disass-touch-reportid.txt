@@ -1,0 +1,16 @@
+
+sub_100050a38:
+0x100050a38:  7f 23 03 d5   pacibsp
+0x100050a3c:  fd 7b bf a9   stp	fp, lr, [sp, #-0x10]!
+0x100050a40:  fd 03 00 91   mov	fp, sp
+0x100050a44:  1f 20 03 d5   nop
+0x100050a48:  08 17 1a 58   ldr	x8, 0x100084d28
+0x100050a4c:  1f 05 00 b1   cmn	x8, #0x1
+0x100050a50:  a1 00 00 54   b.ne	loc_100050a64 ; ⤵ 0x14
+0x100050a54:  c8 01 00 90   adrp	x8, 0x100088000
+0x100050a58:  00 61 57 39   ldrb	w0, [x8, #0x5d8] ; data_1000885d8 (__DATA.__common)
+0x100050a5c:  fd 7b c1 a8   ldp	fp, lr, [sp], #0x10
+0x100050a60:  ff 0f 5f d6   retab
+0x100050a64:  ; loc_100050a64
+0x100050a64:  20 16 1a 10   adr	x0, 0x100084d28
+

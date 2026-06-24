@@ -1,0 +1,498 @@
+#16@0:8
+$s11ActivityKit0A10AttributesP
+$s16ScreenSharingKit7VendingP
+$s7SwiftUI4ViewP
+$sSY
+$ss21_ObjectiveCBridgeableP
+%{public}s is unknown, ignoring and replying if needed
+, awaiting server readiness
+, registering session received reply
+, server is ready replying to rapport
+.cxx_destruct
+/Library/Caches/com.apple.xbs/681967CE-F757-4BF7-8A77-D9C8727DDA8C/TemporaryDirectory.zySWGS/Sources/ScreenSharingKit_iOS/ScreenContinuityShell/AppDelegate.swift
+/Library/Caches/com.apple.xbs/681967CE-F757-4BF7-8A77-D9C8727DDA8C/TemporaryDirectory.zySWGS/Sources/ScreenSharingKit_iOS/ScreenContinuityShell/Drag and Drop/DragAndDropSceneDelegate.swift
+/Library/Caches/com.apple.xbs/681967CE-F757-4BF7-8A77-D9C8727DDA8C/TemporaryDirectory.zySWGS/Sources/ScreenSharingKit_iOS/ScreenContinuityShell/LiveActivity/ActivitySceneDelegate.swift
+/Library/Caches/com.apple.xbs/681967CE-F757-4BF7-8A77-D9C8727DDA8C/TemporaryDirectory.zySWGS/Sources/ScreenSharingKit_iOS/ScreenContinuityShell/ScreenContinuityLiveActivity_iOS.swift
+<i*
+=`FX
+=`NY
+=`VV
+=`^W
+=gB[
+=qJX
+=sRY
+=sVV
+=s^W
+@"NSString"16@0:8
+@"NSUserActivity"24@0:8@"UIScene"16
+@"UISceneConfiguration"40@0:8@"UIApplication"16@"UISceneSession"24@"UISceneConnectionOptions"32
+@"UISceneWindowingControlStyle"24@0:8@"UIWindowScene"16
+@"UIViewController"40@0:8@"UIApplication"16@"NSArray"24@"NSCoder"32
+@"UIWindow"
+@"UIWindow"16@0:8
+@))}@
+@16@0:8
+@24@0:8:16
+@24@0:8@16
+@32@0:8:16@24
+@32@0:8@"UIApplication"16@"INIntent"24
+@32@0:8@16@24
+@40@0:8:16@24@32
+@40@0:8@16@24@32
+@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+@9(!
+AAyAAy
+ACyACy
+ADyADy
+AFyAFy
+Acquire assertion failed [id:%{public}s, 
+Activated registration for continuity displays.
+ActivityScene is missing
+ActivitySceneDelegate
+ActivitySecureWindow
+AppDelegate
+Application
+Assertion Released
+Assertion acquired [id: %{public}s]
+Assertion acquisition failed due to activity having already ended
+Assertion invalidated [id: %{public}s, 
+Attempted to create ScreenContinuityAngel when SessionManagement is not enabled
+Attempting to activate multiple times.
+B16@0:8
+B24@0:8#16
+B24@0:8:16
+B24@0:8@"Protocol"16
+B24@0:8@"UIApplication"16
+B24@0:8@16
+B32@0:8@"UIApplication"16@"NSCoder"24
+B32@0:8@"UIApplication"16@"NSDictionary"24
+B32@0:8@"UIApplication"16@"NSString"24
+B32@0:8@"UIApplication"16@"NSURL"24
+B32@0:8@16@24
+B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+B40@0:8@16@24@32
+B40@0:8@16@24@?32
+B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+B48@0:8@16@24@32@40
+Body
+Bootstrap complete, replying to Rapport
+Bundle identifier is nil
+CGSize
+CodingKeys
+ContentState
+Contradictory frame constraints specified.
+Drag and drop scene configuration is missing
+Drag-and-drop shield window scene connected
+DragAndDropSceneDelegate
+Ending activity %{public}s
+Error acquiring SNAProminentPresentationAssertion %{public}@
+Failed to bootstrap session, tearing down session: %{public}s
+Failed to create reply, a RunningBoardAssertion has probably leaked
+Failed to request ScreenContinuityActivity %{public}@
+Fatal error
+FullAmbientActivityView
+GACG
+GADGG
+GADGG_
+GANGG_
+GAPGG_
+GAQG
+GAQGG_
+GASGG_
+GATG
+GGACySiSgGG
+GGQPGG
+GGQPGGAAt
+GGQPGGACQPGG
+GGQPGGADQPGG
+GGQPGGADQPGG_Qo_
+GG_AAyAhEySiSgGGQPGG
+GG_AAyAnEySiSgGGQPGG
+GG_ACyAhEySiSgGGQPGG
+GG_ACyAnEySiSgGGQPGG
+G_Qo_
+G_Qo__Qo_
+Invalidated registration for continuity displays.
+JA9H
+LaunchOptionsKey
+Live Activity button string
+Live Activity message string
+Live Activity title string
+Live Activity title string if no client name was provided
+LiveActivityDisplayingVendor
+LiveActivityHostingController
+LiveActivityViewModel
+LockscreenActivityView
+MicaAnimationModel
+MicaAnimationView
+MinimalLiveActivityView
+Missing Angel, cannot show live activity, terminating for safety
+NSObject
+NUIApplicationLaunchOptionsKey
+NUISceneSessionRole
+Next scheduled prominent assertion at %s, in %ld seconds.
+OS_xpc_object
+OnenessFeatureFlags.SessionManagement is disabled, starting AngelServer
+OnenessFeatureFlags.SessionManagement is enabled, not starting AngelServer
+ProminenceAssertionError
+Q16@0:8
+Q24@0:8@"UIWindowScene"16
+Q24@0:8@16
+Q32@0:8@"UIApplication"16@"UIWindow"24
+Q32@0:8@16@24
+QPGG
+RawValue
+Received %{public}s event from rapport
+Received %{public}s event from rapport, starting session bootstrap
+Received event: 
+Replied to rapport successfully
+ReplyToRapportIfNeeded(originalXPCEvent:)
+Role
+SSSg
+ScA_pSg
+ScPSg
+Scene was delivered for %{public}@ forwarding to ScreenContinuityAngel
+Scene with role %{public}s not of class UIWindowScene. Drag and drop will not work.
+ScreenContinuityActivity
+ScreenContinuityAttributes
+ScreenContinuityShell
+ScreenContinuityShell.LiveActivityHostingController
+ScreenContinuityShell/ActivitySceneDelegate.swift
+ScreenContinuityShell/AppDelegate.swift
+ScreenContinuityShell/LiveActivityHostingController.swift
+ScreenContinuityShell/ShellSceneKitBackedConnectedDisplayRegistration_iOS.swift
+ScreenContinuityShellBundleMarkerClass
+SecureHostingController
+Session management enabled, will await session start
+Session role %{public}s not supported
+Session role not supported
+SgGG_
+SgGG_AAy
+SgGG_ACy
+SgXw
+SgXwz_Xx
+ShellSceneKitBackedConnectedDisplayRegistration
+ShellSceneKitBackedConnectedDisplayRegistrationVendor
+Showing iPhone Mirroring live activity prominently
+SiSg
+So11UIResponderC
+So13OS_xpc_object_p
+So13UIApplicationC
+So16UIViewControllerC
+So17OS_dispatch_queueC
+So33SNAProminentPresentationAssertionCSg
+So7NSTimerCSg
+So8NSObjectC
+So8NSObjectCSg
+So8NSStringC
+So8UIWindowC
+So8UIWindowCSg
+Starting Bootstrap
+Stop iPhone Mirroring
+Successfully requested activity with id %{public}s
+T#,R
+T@"NSString",?,R,C
+T@"NSString",R,C
+T@"UIWindow",?,&,N
+T@"UIWindow",N,&,Vwindow
+TQ,R
+Tear down remote session from live activity button
+This iPhone is being used from 
+This iPhone is being used from a Mac.
+T{CGSize=dd},N
+UIApplicationDelegate
+UIKitCore
+UISceneDelegate
+UIWindowSceneDelegate
+Unable to find AppDelegate, drag and drop will not work
+Unable to find AppDelegate, unable to show LiveActivity, terminating for safety
+Unable to parse XPC event name, event malformed, returning without replying
+Unexpected rapportEvent: 
+Unlock and open settings URL from live activity
+VendedType
+Vv16@0:8
+We already have an activity running
+We already have an assertion running
+^{_NSZone=}16@0:8
+_$observationRegistrar
+_AAyABy
+_AByACyAAyAAy
+_ObjectiveCType
+_TtC21ScreenContinuityShell11AppDelegate
+_TtC21ScreenContinuityShell11Application
+_TtC21ScreenContinuityShell18MicaAnimationModel
+_TtC21ScreenContinuityShell20ActivitySecureWindow
+_TtC21ScreenContinuityShell21ActivitySceneDelegate
+_TtC21ScreenContinuityShell21LiveActivityViewModel
+_TtC21ScreenContinuityShell24DragAndDropSceneDelegate
+_TtC21ScreenContinuityShell24ScreenContinuityActivity
+_TtC21ScreenContinuityShell28LiveActivityDisplayingVendor
+_TtC21ScreenContinuityShell47ShellSceneKitBackedConnectedDisplayRegistration
+_TtC21ScreenContinuityShell53ShellSceneKitBackedConnectedDisplayRegistrationVendor
+_TtC21ScreenContinuityShellP33_D738224F0A7896064111655A5519EE6038ScreenContinuityShellBundleMarkerClass
+_canShowWhileLocked
+_isSecure
+_isSecureForRemoteViewService
+_micaAnimationPrimitives
+_rawValue
+_shouldAllowKeyboardArbiter
+_viewModel
+activateConstraints:
+activateManualDomain:
+activity
+addChildViewController:
+addSubview:
+appDelegateClassString: %{public}s
+application(_:didFinishLaunchingWithOptions:)
+application:configurationForConnectingSceneSession:options:
+application:continueUserActivity:restorationHandler:
+application:didChangeStatusBarFrame:
+application:didChangeStatusBarOrientation:
+application:didDecodeRestorableStateWithCoder:
+application:didDiscardSceneSessions:
+application:didFailToContinueUserActivityWithType:error:
+application:didFailToRegisterForRemoteNotificationsWithError:
+application:didFinishLaunchingWithOptions:
+application:didReceiveLocalNotification:
+application:didReceiveRemoteNotification:
+application:didReceiveRemoteNotification:fetchCompletionHandler:
+application:didRegisterForRemoteNotificationsWithDeviceToken:
+application:didRegisterUserNotificationSettings:
+application:didUpdateUserActivity:
+application:handleActionWithIdentifier:forLocalNotification:completionHandler:
+application:handleActionWithIdentifier:forLocalNotification:withResponseInfo:completionHandler:
+application:handleActionWithIdentifier:forRemoteNotification:completionHandler:
+application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:
+application:handleEventsForBackgroundURLSession:completionHandler:
+application:handleIntent:completionHandler:
+application:handleOpenURL:
+application:handleWatchKitExtensionRequest:reply:
+application:handlerForIntent:
+application:openURL:options:
+application:openURL:sourceApplication:annotation:
+application:performActionForShortcutItem:completionHandler:
+application:performFetchWithCompletionHandler:
+application:shouldAllowExtensionPointIdentifier:
+application:shouldRestoreApplicationState:
+application:shouldRestoreSecureApplicationState:
+application:shouldSaveApplicationState:
+application:shouldSaveSecureApplicationState:
+application:supportedInterfaceOrientationsForWindow:
+application:userDidAcceptCloudKitShareWithMetadata:
+application:viewControllerWithRestorationIdentifierPath:coder:
+application:willChangeStatusBarFrame:
+application:willChangeStatusBarOrientation:duration:
+application:willContinueUserActivityWithType:
+application:willEncodeRestorableStateWithCoder:
+application:willFinishLaunchingWithOptions:
+applicationDidBecomeActive:
+applicationDidEnterBackground:
+applicationDidFinishLaunching:
+applicationDidReceiveMemoryWarning:
+applicationLaunchPrimitives
+applicationProtectedDataDidBecomeAvailable:
+applicationProtectedDataWillBecomeUnavailable:
+applicationShouldAutomaticallyLocalizeKeyCommands:
+applicationShouldRequestHealthAuthorization:
+applicationSignificantTimeChange:
+applicationWillEnterForeground:
+applicationWillResignActive:
+applicationWillTerminate:
+apps.iphone.and.cursorarrow
+assertionAlreadyExists
+assertionInvalidated
+assertionSchedulerTimer
+autorelease
+awaitSessionStart(replyingWith:rapportEventName:)
+blackColor
+bottomAnchor
+bundleForClass:
+bundleIdentifier
+class
+clearColor
+clientName
+com.apple.ScreenContinuityShell.xpcEventQueue
+com.apple.rapport.matching
+configuration
+configureXPCEventStreamHandler()
+conformsToProtocol:
+constraintEqualToAnchor:
+copy
+currentLiveActivityDelegate()
+darkGrayColor
+dealloc
+debugDescription
+delegate
+description
+dismissLiveActivity()
+dragAndDropSceneConnected(_:)
+error: %@],
+failedToAcquireAssertion
+frame
+h@yC+
+h@yS+
+hCA9
+hash
+height
+hostingController
+i#@9h
+iCA9*
+in-use-indicator
+init
+init(coder:) has not been implemented
+init(nibName:bundle:)
+initWithCoder:
+initWithExplanation:sessionIdentifier:duration:invalidationHandler:
+initWithFrame:
+initWithNibName:bundle:
+initWithWindowScene:
+invalidate
+invalidationReason
+invalidationReason: %{public}lu, 
+isEqual:
+isKindOfClass:
+isMemberOfClass:
+isProxy
+j48u
+leadingAnchor
+liveActivityDelegate
+main
+mainBundle
+makeKeyAndVisible
+messageString
+name
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+preferredContentSize
+preferredContentSizeDidChangeForChildContentContainer:
+preferredWindowingControlStyleForScene:
+prominenceAssertion
+registration
+release
+replyRequired
+respondsToSelector:
+retain
+retainCount
+role
+scene(_:willConnectTo:options:)
+scene:continueUserActivity:
+scene:didFailToContinueUserActivityWithType:error:
+scene:didUpdateUserActivity:
+scene:openURLContexts:
+scene:restoreInteractionStateWithUserActivity:
+scene:willConnectToSession:options:
+scene:willContinueUserActivityWithType:
+sceneDidBecomeActive:
+sceneDidDisconnect:
+sceneDidEnterBackground:
+sceneWillEnterForeground:
+sceneWillResignActive:
+scheduledTimerWithTimeInterval:repeats:block:
+screenContinuityAngel
+self
+setBackgroundColor:
+setDelegateClass:
+setPreferredContentSize:
+setRootViewController:
+setSceneClass:
+setTranslatesAutoresizingMaskIntoConstraints:
+setWindow:
+settings-navigation://com.apple.Settings.General/CONTINUITY_SPEC/Oneness
+sharedApplication
+showLiveActivity()
+state
+state: %{public}lu, 
+state: %{public}lu]
+stateRestorationActivityForScene:
+stopLabel
+superclass
+supportedInterfaceOrientationsForWindowScene:
+symbolName
+titleString
+topAnchor
+trailingAnchor
+v".9
+v16@0:8
+v16@?0@"<OS_xpc_object>"8
+v16@?0@"NSTimer"8
+v20@0:8B16
+v24@0:8@"UIApplication"16
+v24@0:8@"UIScene"16
+v24@0:8@"UIWindow"16
+v24@0:8@16
+v24@?0@"SNAProminentPresentationAssertion"8@"NSError"16
+v32@0:8@"UIApplication"16@"CKShareMetadata"24
+v32@0:8@"UIApplication"16@"NSCoder"24
+v32@0:8@"UIApplication"16@"NSData"24
+v32@0:8@"UIApplication"16@"NSDictionary"24
+v32@0:8@"UIApplication"16@"NSError"24
+v32@0:8@"UIApplication"16@"NSSet"24
+v32@0:8@"UIApplication"16@"NSUserActivity"24
+v32@0:8@"UIApplication"16@"UILocalNotification"24
+v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+v32@0:8@"UIApplication"16@?<v@?Q>24
+v32@0:8@"UIApplication"16q24
+v32@0:8@"UIScene"16@"NSSet"24
+v32@0:8@"UIScene"16@"NSString"24
+v32@0:8@"UIScene"16@"NSUserActivity"24
+v32@0:8@"UIWindowScene"16@"CKShareMetadata"24
+v32@0:8@"UIWindowScene"16@"UIWindowSceneGeometry"24
+v32@0:8@16@24
+v32@0:8@16@?24
+v32@0:8@16q24
+v32@0:8{CGSize=dd}16
+v40@0:8@"UIApplication"16@"INIntent"24@?<v@?@"INIntentResponse">32
+v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?@"NSDictionary">32
+v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+v40@0:8@"UIApplication"16@"NSString"24@"NSError"32
+v40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+v40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+v40@0:8@"UIApplication"16q24d32
+v40@0:8@"UIScene"16@"NSString"24@"NSError"32
+v40@0:8@"UIScene"16@"UISceneSession"24@"UISceneConnectionOptions"32
+v40@0:8@"UIWindowScene"16@"UIApplicationShortcutItem"24@?<v@?B>32
+v40@0:8@16@24@32
+v40@0:8@16@24@?32
+v40@0:8@16q24d32
+v48@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@?<v@?>40
+v48@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@?<v@?>40
+v48@0:8@"UIWindowScene"16@"<UICoordinateSpace>"24q32@"UITraitCollection"40
+v48@0:8@16@24@32@?40
+v48@0:8@16@24q32@40
+v56@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@"NSDictionary"40@?<v@?>48
+v56@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@"NSDictionary"40@?<v@?>48
+v56@0:8@"UIApplication"16{CGRect={CGPoint=dd}{CGSize=dd}}24
+v56@0:8@16@24@32@40@?48
+v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+v8@?0
+view
+viewIsAppearing:
+viewSize
+width
+window
+windowScene
+windowScene:didUpdateCoordinateSpace:interfaceOrientation:traitCollection:
+windowScene:didUpdateEffectiveGeometry:
+windowScene:performActionForShortcutItem:completionHandler:
+windowScene:userDidAcceptCloudKitShareWithMetadata:
+xpcEventQueue
+yAAy
+yAAyAAy
+yAAyAAyAAy
+yAAyAAyAL
+yAAyAAyAO
+yABy
+yAByACy
+yACy
+yACyAAy
+yACyACyAN
+yADy
+yADyADyAO
+yAFy
+yAFyAFyAQ
+ytIeAgHr_
+yyXlG
+zone
+{CGSize=dd}16@0:8

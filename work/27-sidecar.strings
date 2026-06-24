@@ -1,0 +1,616 @@
+ already loaded or loading
+"A9jB
+#16@0:8
+$__lazy_storage_$__showDebugColors
+$sSY
+$ss21_ObjectiveCBridgeableP
+%{public}s
+%{public}s (%ld) %{private}s
+%{public}s - no window
+%{public}s - no windowScene
+%{public}s isMainDisplay: %{bool}d, isSecure: %{bool}d
+%{public}s with identifier: "%s"
+%{public}s, session role: %s
+%{public}s: %{public}s (%ld) %{private}s
+' Activation Failed ===
+(AA9
+*yi
+*K{h
+*kzh
+- Service Extension '%{public}s' %{public}s Active
+- Service Extension '%{public}s' %{public}s Loaded
+.cxx_destruct
+3key_
+5valuet
+=== Activating Service Extension '%{public}s' ===
+=== Application Will Terminate ===
+=== Creating window with UIWindowScene ===
+=== Loading Service %{public}s ===
+=== Service '%{public}s' Activation Failed ===
+=== Service Extension '
+=== Starting Service Extension '%{public}s' ===
+=== Terminate (from Relay) ===
+=== Unloading Service %{public}s ===
+=== Window created ===
+@"<UIViewControllerAnimatedTransitioning>"48@0:8@"UINavigationController"16q24@"UIViewController"32@"UIViewController"40
+@"<UIViewControllerInteractiveTransitioning>"32@0:8@"UINavigationController"16@"<UIViewControllerAnimatedTransitioning>"24
+@"<UIViewImplicitlyAnimating>"24@0:8@"<UIViewControllerContextTransitioning>"16
+@"NSString"16@0:8
+@"NSUserActivity"24@0:8@"UIScene"16
+@"UISceneConfiguration"40@0:8@"UIApplication"16@"UISceneSession"24@"UISceneConnectionOptions"32
+@"UISceneWindowingControlStyle"24@0:8@"UIWindowScene"16
+@"UIView"16@0:8
+@"UIView"24@0:8@"NSString"16
+@"UIViewController"24@0:8@"NSString"16
+@"UIViewController"40@0:8@"UIApplication"16@"NSArray"24@"NSCoder"32
+@"UIWindow"16@0:8
+@(#)PROGRAM:Sidecar  PROJECT:Sidecar-400.37
+@16@0:8
+@24@0:8:16
+@24@0:8@16
+@24@0:8^{_NSZone=}16
+@32@0:8#16#24
+@32@0:8:16@24
+@32@0:8@"UIApplication"16@"INIntent"24
+@32@0:8@16@24
+@40@0:8:16@24@32
+@40@0:8@16@24@32
+@48@0:8@16q24@32@40
+@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+@9k#
+Animation
+AppDelegate
+B16@0:8
+B24@0:8#16
+B24@0:8:16
+B24@0:8@"Protocol"16
+B24@0:8@"UIApplication"16
+B24@0:8@16
+B32@0:8@"UIApplication"16@"NSCoder"24
+B32@0:8@"UIApplication"16@"NSDictionary"24
+B32@0:8@"UIApplication"16@"NSString"24
+B32@0:8@"UIApplication"16@"NSURL"24
+B32@0:8@16@24
+B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+B40@0:8@16@24@32
+B40@0:8@16@24@?32
+B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+B48@0:8@16@24@32@40
+BA9(A
+BA9v
+BSInvalidatable
+CGPoint
+CGRect
+CGSize
+Canceling %ld Services
+Cannot make service front - no view controller
+Cannot make service front - window not initialized
+ColorUIViewController
+Continuing with %ld Active Services
+DispatchTimeInterval with negative interval
+EffectiveGeometry Orientation: %{public}s (extension mask %lx)
+EyeCandyCore/Queue.swift
+Fade
+Fatal error
+Forcing Orientation: %{public}s -> %{public}s (extension mask %lx)
+Found Service Extension '%{public}s'
+Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG
+HCA9
+HostRemoteViewController
+Idle Exiting: %{public}s
+Ieg_
+IeyB_
+Ignoring scene did connect for %@
+Ignoring scene did disconnect for %@
+Ignoring sceneWillConnect
+Ignoring sceneWillEnterForeground for %@
+Invalidating assertion for scene: %{public}s
+Invalidating gesture assertion for "%s"
+JA9H
+LaunchOptionsKey
+Launching Service Extension '%{public}s' %{public}s (Screen %{public}s)
+Leaving Unlocked
+Loading Service Extension '%{public}s' %{public}s
+Mb@C
+NSCopying
+NSObject
+NUIApplicationLaunchOptionsKey
+NUISceneSessionRole
+New incoming scene without disconnecting the scene with identifier: "%s"
+OS_dispatch_source
+OS_dispatch_source_timer
+Q16@0:8
+Q24@0:8@"UINavigationController"16
+Q24@0:8@"UIWindowScene"16
+Q24@0:8@16
+Q32@0:8@"UIApplication"16@"UIWindow"24
+Q32@0:8@16@24
+RawValue
+ResourceBundleClass
+Returning to Screen Lock
+Rhj:8t
+Role
+SDySo13UIWindowSceneC
+SSIego_
+SbIegy_
+SbSg
+SceneDelegate
+Screen Lock after Sidecar Display
+SecureWindow
+Service %{public}s %{public}s Sleep
+Service Extension %{public}s Ready (Not Loaded)
+Service Extension '
+Service Extension '%{public}s' %{public}s Activated
+Service Extension '%{public}s' %{public}s Activation Failed
+Service Extension '%{public}s' %{public}s Deactivated
+Service Extension '%{public}s' %{public}s Deactivated (Not Active)
+Service Extension '%{public}s' %{public}s Deactivated (Not Loaded)
+Service Extension '%{public}s' %{public}s Declined Presentation
+Service Extension '%{public}s' %{public}s Ready
+Service Extension '%{public}s' %{public}s Terminated
+Service Extension '%{public}s' %{public}s Timed Out (Activating Anyway)
+ServiceExtension
+ServiceExtension 
+ServiceManager
+ServiceManager %{public}s with identifier: "%s"
+ServiceManager %{public}s with identifier: "%{public}s"
+ServiceNavigationController
+SgXw
+Sg_ABt
+SiIegd_
+SiIegr_
+Sidecar
+Sidecar.Animation
+Sidecar/AppDelegate.swift
+Sidecar/ServiceExtension.swift
+Sidecar1
+SidecarCompletionAnimation
+SidecarServiceHostInterface
+SidecarServiceName
+SidecarServicePresenterDelegate
+SidecarServiceServiceInterface
+SlideIn
+SlideOut
+So11NSExtensionC
+So11UIResponderC
+So13UIWindowSceneCSg
+So15BSInvalidatable_p
+So16UIViewControllerC
+So20SBSLockScreenServiceC
+So22UINavigationControllerC
+So23_UIRemoteViewControllerC
+So24OS_dispatch_source_timer_p
+So36UIViewControllerContextTransitioning_p
+So7NSErrorC
+So7NSErrorCSgIeyBy_
+So8NSObjectC
+So8NSObjectCSg
+So8NSStringC
+So8UIWindowC
+So9NSCopying_p
+T#,R
+T@"NSString",?,R,C
+T@"NSString",R,C
+T@"UIView",R,N
+T@"UIViewController",N,R
+T@"UIWindow",?,&,N
+TB,N,R
+TB,R,N
+TB,R,N,GisAnimated
+TB,R,N,GisInteractive
+TI{|
+TQ,N,R
+TQ,R
+T`N@
+Th2@
+Th{x
+Ti{|
+Tq,R,N
+T{CGAffineTransform=dddddd},R,N
+UIApplicationDelegate
+UIBackgroundStyle
+UIDeviceOrientation
+UIInterfaceOrientation
+UIKitCore
+UINavigationControllerDelegate
+UISceneDelegate
+UIViewControllerAnimatedTransitioning
+UIViewControllerContextTransitioning
+UIWindowSceneDelegate
+Vv16@0:8
+^{_NSZone=}16@0:8
+_ObjectiveCType
+_TtC7Sidecar11AppDelegate
+_TtC7Sidecar12SecureWindow
+_TtC7Sidecar13SceneDelegate
+_TtC7Sidecar14ServiceManager
+_TtC7Sidecar16ServiceExtension
+_TtC7Sidecar21ColorUIViewController
+_TtC7Sidecar27ServiceNavigationController
+_TtC7SidecarP33_0288F9AF9923AFAC7CB167AF1998CFBB19ResourceBundleClass
+_TtC7SidecarP33_B1827D7A219FDFB98F7225EB7121A0B74Fade
+_TtC7SidecarP33_B1827D7A219FDFB98F7225EB7121A0B77SlideIn
+_TtC7SidecarP33_B1827D7A219FDFB98F7225EB7121A0B78SlideOut
+_TtC7SidecarP33_B1827D7A219FDFB98F7225EB7121A0B79Animation
+_activeExtensions
+_animationConfig
+_backgroundStyle
+_baseViewController
+_canShowWhileLocked
+_handleHomeButtonPressed(note:)
+_handleHomeButtonPressedWithNote:
+_handleVolumeDownButtonPressed(note:)
+_handleVolumeDownButtonPressedWithNote:
+_handleVolumeUpButtonPressed(note:)
+_handleVolumeUpButtonPressedWithNote:
+_isSecure
+_pSg
+_pSgIegg_
+_p_G
+_rawValue
+_sceneIdentifier
+_setBackgroundStyle:
+_wantsVolumeButtonEvents
+_yptG
+_yyctSg
+addObserver:selector:name:object:
+allowsDisplaySleep
+animateTransition:
+animateWithDuration:animations:completion:
+animated
+animationEnded:
+application:configurationForConnectingSceneSession:options:
+application:continueUserActivity:restorationHandler:
+application:didChangeStatusBarFrame:
+application:didChangeStatusBarOrientation:
+application:didDecodeRestorableStateWithCoder:
+application:didDiscardSceneSessions:
+application:didFailToContinueUserActivityWithType:error:
+application:didFailToRegisterForRemoteNotificationsWithError:
+application:didFinishLaunchingWithOptions:
+application:didReceiveLocalNotification:
+application:didReceiveRemoteNotification:
+application:didReceiveRemoteNotification:fetchCompletionHandler:
+application:didRegisterForRemoteNotificationsWithDeviceToken:
+application:didRegisterUserNotificationSettings:
+application:didUpdateUserActivity:
+application:handleActionWithIdentifier:forLocalNotification:completionHandler:
+application:handleActionWithIdentifier:forLocalNotification:withResponseInfo:completionHandler:
+application:handleActionWithIdentifier:forRemoteNotification:completionHandler:
+application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:
+application:handleEventsForBackgroundURLSession:completionHandler:
+application:handleIntent:completionHandler:
+application:handleOpenURL:
+application:handleWatchKitExtensionRequest:reply:
+application:handlerForIntent:
+application:openURL:options:
+application:openURL:sourceApplication:annotation:
+application:performActionForShortcutItem:completionHandler:
+application:performFetchWithCompletionHandler:
+application:shouldAllowExtensionPointIdentifier:
+application:shouldRestoreApplicationState:
+application:shouldRestoreSecureApplicationState:
+application:shouldSaveApplicationState:
+application:shouldSaveSecureApplicationState:
+application:supportedInterfaceOrientationsForWindow:
+application:userDidAcceptCloudKitShareWithMetadata:
+application:viewControllerWithRestorationIdentifierPath:coder:
+application:willChangeStatusBarFrame:
+application:willChangeStatusBarOrientation:duration:
+application:willContinueUserActivityWithType:
+application:willEncodeRestorableStateWithCoder:
+application:willFinishLaunchingWithOptions:
+applicationDidBecomeActive:
+applicationDidEnterBackground:
+applicationDidFinishLaunching:
+applicationDidFinishLaunching: suspended=%{bool}d, options=%{private}@
+applicationDidReceiveMemoryWarning:
+applicationProtectedDataDidBecomeAvailable:
+applicationProtectedDataWillBecomeUnavailable:
+applicationShouldAutomaticallyLocalizeKeyCommands:
+applicationShouldRequestHealthAuthorization:
+applicationSignificantTimeChange:
+applicationState
+applicationWillEnterForeground:
+applicationWillResignActive:
+applicationWillTerminate:
+autorelease
+backgroundStyle
+beginGeneratingDeviceOrientationNotifications
+blackColor
+boolForKey:
+cancelExtensionRequestWithIdentifier:
+cancelInteractiveTransition
+childViewControllerForStatusBarStyle
+class
+clearColor
+code
+com.apple.sidecar
+com.apple.sidecar.extension.display
+completeTransition:
+completion
+configuration
+conformsToProtocol:
+connectedScenes
+containerView
+copyWithZone:
+currentDevice
+currentWindowScene
+d24@0:8@"<UIViewControllerContextTransitioning>"16
+d24@0:8@16
+dealloc
+debugDescription
+defaultCenter
+description
+disconnect
+displayConfiguration
+displayIdentity
+domain
+effectiveGeometry
+expectsSecureRendering
+exportedInterface
+extensionWithIdentifier:error:
+finalFrameForViewController:
+finishInteractiveTransition
+gestureAssertionsByScene
+greenColor
+h@y[O
+hash
+height
+hjh8
+hjz8
+identifier
+inBackground
+infoDictionary
+init
+init()
+initWithCoder:
+initWithDomain:code:userInfo:
+initWithFrame:
+initWithNavigationBarClass:toolbarClass:
+initWithNibName:bundle:
+initWithRootViewController:
+initWithWindowScene:
+initialFrameForViewController:
+insertSubview:aboveSubview:
+insertSubview:belowSubview:
+instantiateViewControllerWithInputItems:connectionHandler:
+interactive
+interfaceOrientation
+interfaceWithProtocol:
+interruptibleAnimatorForTransition:
+invalidate
+invalidateAllGestureAssertions()
+isAnimated
+isEqual:
+isInteractive
+isKindOfClass:
+isMainDisplay
+isMemberOfClass:
+isProxy
+j(8(
+j(8D
+j(8T
+j58w
+j78`
+j98H
+jh8(
+jh8P
+loadView
+loaded
+loading
+localizedDescription
+lockDevice() Failed; Ignoring and Proceeding to Idle Exit
+lockDevice() Succeeded; Continuing to Idle Exit
+lockDeviceAnimated:withCompletion:
+logger
+makeKeyAndVisible
+navigationBar
+navigationController
+navigationController:animationControllerForOperation:fromViewController:toViewController:
+navigationController:didShowViewController:animated:
+navigationController:interactionControllerForAnimationController:
+navigationController:willShowViewController:animated:
+navigationControllerPreferredInterfaceOrientationForPresentation:
+navigationControllerSupportedInterfaceOrientations:
+nsExtension
+openApplication:withOptions:completion:
+optionsWithDictionary:
+orientation
+origin
+pauseInteractiveTransition
+pendingActiveServices
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+popViewControllerAnimated:
+portraitUpsideDown
+preferredWindowingControlStyleForScene:
+presentationStyle
+pushViewController:animated:
+q16@0:8
+q24@0:8@"UINavigationController"16
+q24@0:8@16
+qvF@
+readyServiceUUIDs
+readyTimer
+redColor
+release
+removeObserver:
+respondsToSelector:
+retain
+retainCount
+role
+sbui_performButtonEvent:
+scene(_:willConnectTo:options:)
+scene:continueUserActivity:
+scene:didFailToContinueUserActivityWithType:error:
+scene:didUpdateUserActivity:
+scene:openURLContexts:
+scene:restoreInteractionStateWithUserActivity:
+scene:willConnectToSession:options:
+scene:willContinueUserActivityWithType:
+sceneDidBecomeActive(_:)
+sceneDidBecomeActive:
+sceneDidDisconnect(_:)
+sceneDidDisconnect:
+sceneDidEnterBackground(_:)
+sceneDidEnterBackground:
+sceneWillConnect(_:)
+sceneWillEnterForeground(_:)
+sceneWillEnterForeground:
+sceneWillResignActive(_:)
+sceneWillResignActive:
+screen
+self
+sentCompletion
+serviceExtension
+serviceName
+serviceViewControllerInterface
+serviceViewControllerProxy
+setAlpha:
+setBackgroundColor:
+setDelegate:
+setFrame:
+setHidden:
+setIdleTimerDisabled:
+setNeedsStatusBarAppearanceUpdate
+setOrientation:animated:
+setRootViewController:
+setView:
+setViewControllers:
+setWantsVolumeButtonEvents:
+setWindow:
+setWindowScene:
+sharedApplication
+shouldAutorotate
+showAppSwitcher()
+sidecarServiceActive
+sidecarServiceCancel
+sidecarServiceDisableDisplaySleep:
+sidecarServiceGoHome
+sidecarServiceGoHome()
+sidecarServiceOpenControlCenter
+sidecarServiceOpenControlCenter()
+sidecarServiceOrientationChanged
+sidecarServicePresenterServiceExtensionReady:
+sidecarServicePresenterStartServiceExtension:completion:
+sidecarServicePresenterTerminate
+sidecarServiceSetActive:
+sidecarServiceSetBackgrounded:
+sidecarServiceSetSceneIdentifier:
+sidecarServiceSetSceneIdentityToken:
+sidecarServiceShouldPresentWithCompletion:
+sidecarServiceShowAppSwitcher
+sidecarServiceShowAppSwitcher()
+sidecarServiceViewControllerAnimate:completion:
+sidecarServiceViewControllerBackgroundStyle:
+sidecarServiceViewControllerWantsVolumeButtonEvents:
+sidecarServiceVolumeDownButtonPressed:
+sidecarServiceVolumeUpButtonPressed:
+size
+standardUserDefaults
+stateRestorationActivityForScene:
+superclass
+supportedInterfaceOrientations
+supportedInterfaceOrientationsForWindowScene:
+targetTransform
+terminateWithSuccess
+toggleControlCenter()
+topViewController
+transitionDuration:
+transitionWasCancelled
+uiWindowScene
+updateInteractiveTransition:
+uuid
+v12@?0B8
+v16@0:8
+v16@?0@"NSError"8
+v20@0:8B16
+v24@0:8@"<UIViewControllerContextTransitioning>"16
+v24@0:8@"FBSSceneIdentityToken"16
+v24@0:8@"NSString"16
+v24@0:8@"NSUUID"16
+v24@0:8@"UIApplication"16
+v24@0:8@"UIScene"16
+v24@0:8@"UIWindow"16
+v24@0:8@16
+v24@0:8@?16
+v24@0:8@?<v@?@"NSError">16
+v24@0:8d16
+v24@0:8q16
+v24@?0@"BSProcessHandle"8@"NSError"16
+v32@0:8@"NSString"16@?<v@?@"NSError">24
+v32@0:8@"UIApplication"16@"CKShareMetadata"24
+v32@0:8@"UIApplication"16@"NSCoder"24
+v32@0:8@"UIApplication"16@"NSData"24
+v32@0:8@"UIApplication"16@"NSDictionary"24
+v32@0:8@"UIApplication"16@"NSError"24
+v32@0:8@"UIApplication"16@"NSSet"24
+v32@0:8@"UIApplication"16@"NSUserActivity"24
+v32@0:8@"UIApplication"16@"UILocalNotification"24
+v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+v32@0:8@"UIApplication"16@?<v@?Q>24
+v32@0:8@"UIApplication"16q24
+v32@0:8@"UIScene"16@"NSSet"24
+v32@0:8@"UIScene"16@"NSString"24
+v32@0:8@"UIScene"16@"NSUserActivity"24
+v32@0:8@"UIWindowScene"16@"CKShareMetadata"24
+v32@0:8@"UIWindowScene"16@"UIWindowSceneGeometry"24
+v32@0:8@16@24
+v32@0:8@16@?24
+v32@0:8@16q24
+v32@0:8q16@?24
+v32@0:8q16@?<v@?>24
+v32@?0@"<NSCopying>"8@"UIViewController"16@"NSError"24
+v36@0:8@"UINavigationController"16@"UIViewController"24B32
+v36@0:8@16@24B32
+v40@0:8@"UIApplication"16@"INIntent"24@?<v@?@"INIntentResponse">32
+v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?@"NSDictionary">32
+v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+v40@0:8@"UIApplication"16@"NSString"24@"NSError"32
+v40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+v40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+v40@0:8@"UIApplication"16q24d32
+v40@0:8@"UIScene"16@"NSString"24@"NSError"32
+v40@0:8@"UIScene"16@"UISceneSession"24@"UISceneConnectionOptions"32
+v40@0:8@"UIWindowScene"16@"UIApplicationShortcutItem"24@?<v@?B>32
+v40@0:8@16@24@32
+v40@0:8@16@24@?32
+v40@0:8@16q24d32
+v48@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@?<v@?>40
+v48@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@?<v@?>40
+v48@0:8@"UIWindowScene"16@"<UICoordinateSpace>"24q32@"UITraitCollection"40
+v48@0:8@16@24@32@?40
+v48@0:8@16@24q32@40
+v56@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@"NSDictionary"40@?<v@?>48
+v56@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@"NSDictionary"40@?<v@?>48
+v56@0:8@"UIApplication"16{CGRect={CGPoint=dd}{CGSize=dd}}24
+v56@0:8@16@24@32@40@?48
+v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+v8@?0
+view
+viewController
+viewControllerForKey:
+viewControllers
+viewForKey:
+viewServiceDidTerminateWithError:
+wantsVolumeButtonEvents
+width
+window
+windowScene
+windowScene:didUpdateCoordinateSpace:interfaceOrientation:traitCollection:
+windowScene:didUpdateEffectiveGeometry:
+windowScene:performActionForShortcutItem:completionHandler:
+windowScene:userDidAcceptCloudKitShareWithMetadata:
+ySSypG
+ySo13UIWindowSceneC
+ySo13UIWindowSceneCi
+ypSg
+ytZ@
+yySpy
+zone
+{CGAffineTransform=dddddd}16@0:8
+{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@"UIViewController"16
+{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16

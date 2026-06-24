@@ -1,0 +1,1 @@
+{ Filter = { Bundles = ( "com.apple.sidecar", "com.apple.sidecar.extension.display" ); }; }

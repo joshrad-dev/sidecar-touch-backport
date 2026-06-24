@@ -1,0 +1,47 @@
+
+sub_10000f594:
+0x10000f594:  7f 23 03 d5   pacibsp
+0x10000f598:  ff 03 01 d1   sub	sp, sp, #0x40
+0x10000f59c:  f4 4f 02 a9   stp	x20, x19, [sp, #0x20]
+0x10000f5a0:  fd 7b 03 a9   stp	fp, lr, [sp, #0x30]
+0x10000f5a4:  fd c3 00 91   add	fp, sp, #0x30
+0x10000f5a8:  9a 2d 00 94   bl	0x10001ac10
+0x10000f5ac:  42 2c 00 94   bl	0x10001a6b4
+0x10000f5b0:  ba 2c 00 94   bl	0x10001a898
+0x10000f5b4:  70 3b 01 94   bl	j__swift_beginAccess
+0x10000f5b8:  60 02 40 39   ldrb	w0, [x19]
+0x10000f5bc:  fd 7b 43 a9   ldp	fp, lr, [sp, #0x30]
+0x10000f5c0:  f4 4f 42 a9   ldp	x20, x19, [sp, #0x20]
+0x10000f5c4:  ff 03 01 91   add	sp, sp, #0x40
+0x10000f5c8:  ff 0f 5f d6   retab
+
+sub_10000f5cc:
+0x10000f5cc:  7f 23 03 d5   pacibsp
+0x10000f5d0:  ff 43 01 d1   sub	sp, sp, #0x50
+0x10000f5d4:  f6 57 02 a9   stp	x22, x21, [sp, #0x20]
+0x10000f5d8:  f4 4f 03 a9   stp	x20, x19, [sp, #0x30]
+0x10000f5dc:  fd 7b 04 a9   stp	fp, lr, [sp, #0x40]
+0x10000f5e0:  fd 03 01 91   add	fp, sp, #0x40
+0x10000f5e4:  f3 03 00 aa   mov	x19, x0
+0x10000f5e8:  8a 2d 00 94   bl	0x10001ac10
+0x10000f5ec:  49 2c 00 94   bl	0x10001a710
+0x10000f5f0:  04 2d 00 94   bl	0x10001aa00
+0x10000f5f4:  60 3b 01 94   bl	j__swift_beginAccess
+0x10000f5f8:  b3 02 00 39   strb	w19, [x21]
+0x10000f5fc:  fd 7b 44 a9   ldp	fp, lr, [sp, #0x40]
+0x10000f600:  f4 4f 43 a9   ldp	x20, x19, [sp, #0x30]
+0x10000f604:  f6 57 42 a9   ldp	x22, x21, [sp, #0x20]
+0x10000f608:  ff 43 01 91   add	sp, sp, #0x50
+0x10000f60c:  ff 0f 5f d6   retab
+
+sub_10000f610:
+0x10000f610:  7f 23 03 d5   pacibsp
+0x10000f614:  ff 83 01 d1   sub	sp, sp, #0x60
+0x10000f618:  f6 57 03 a9   stp	x22, x21, [sp, #0x30]
+0x10000f61c:  f4 4f 04 a9   stp	x20, x19, [sp, #0x40]
+0x10000f620:  fd 7b 05 a9   stp	fp, lr, [sp, #0x50]
+0x10000f624:  fd 43 01 91   add	fp, sp, #0x50
+0x10000f628:  a5 2c 00 94   bl	0x10001a8bc
+0x10000f62c:  dd 3e 01 94   bl	j__objc_msgSend(x0, "copy")
+0x10000f630:  f3 03 00 aa   mov	x19, x0
+

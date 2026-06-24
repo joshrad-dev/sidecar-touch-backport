@@ -1,0 +1,597 @@
+typealias UIScreenReferenceDisplayModeStatus ReferenceDisplayModeStatus
+enum __C.UIScreenReferenceDisplayModeStatus {}
+
+struct __C.AVCQoSReportKey {
+    var _rawValue: NSString
+}
+
+class ContinuityDisplay.HIDEventObserver {
+  /* fields */
+    let logger: nominal type descriptor for Logger
+    var screenSize: __C.CGSize
+    var timeSyncClock: SidecarTimeSync.Clock ?
+    var touchBounds: __C.CGRect
+    let tracking: SidecarHID.TouchTrackerLog
+    var peerSupportsHIDReportExtensions: Swift.Bool
+    var mainWindowContextID: nominal type descriptor for UInt32 ?
+    var isKeyboardVisible: Swift.Bool
+    var interfaceOrientation: __C.UIInterfaceOrientation
+    let dispatchQueue: DispatchQueue
+    var hidStream: SidecarStream?
+    var hidDevice: ContinuityDisplay.DisplayHIDDevice ?
+    let keyboardReport: SidecarHID.KeyboardReport
+  /* methods */
+    // <stripped> static func init __ptrauth(9352)
+}
+
+struct ContinuityDisplay.DisplaySettings {
+    var _storedValues: Dictionary -> ContinuityDisplay.DisplayPrefs.Key Any
+}
+
+struct ContinuityDisplay.DisplayPrefs {
+    var changeCallout: (_:)
+    let _defaults: NSUserDefaults
+    var overrides: Dictionary -> ContinuityDisplay.DisplayPrefs.Key Any
+}
+
+struct ContinuityDisplay.DisplayMode {
+    let width: Int
+    let height: Int
+}
+
+class ContinuityDisplay.SidecarDisplaySession: NSObject {
+  /* fields */
+    var delegate: ContinuityDisplay.SidecarDisplaySessionDelegate ?
+    let logger: nominal type descriptor for Logger
+    let request: SidecarRequest
+    let config: ContinuityDisplay.SidecarDisplaySession.Config
+    var peerSupportsHIDReportExtensions: Swift.Bool
+    var serverCapabilities: ContinuityDisplay.ServerCapabilities ?
+    var _shouldLockScreenOnClose: Swift.Bool
+    var safeInsets: __C.NSEdgeInsets
+    var displayModes: Array -> ContinuityDisplay.DisplayMode ?
+    var devicePPI: Double?
+    var queue: DispatchQueue
+    var accepted: Swift.Bool
+    var inited: Swift.Bool
+    var negotiator: AVCMediaStreamNegotiator?
+    var audioStreamNegotiator: AVCMediaStreamNegotiator?
+    var uuid: nominal type descriptor for UUID
+    var videoConfig: ContinuityDisplay.VideoConfig ?
+    var coexSession: nominal type descriptor for MediaContinuityCoexSession ?
+    var clock: SidecarTimeSync.Clock ?
+    var settings: ContinuityDisplay.DisplaySettings
+    var hidSidecarStream: SidecarStream?
+    var videoSidecarStream: SidecarStream?
+    var audioSidecarStream: SidecarStream?
+    var videoStream: ContinuityDisplay.VideoStream ?
+    var audioStream: ContinuityDisplay.AudioStream ?
+    var videoClient: AVCRemoteVideoClient?
+    let videoClientDelegate: ContinuityDisplay.SidecarDisplaySession.SessionVideoClientDelegate
+    var configurationTimer: (objc_protocol 0x100064b00) ?
+  /* methods */
+    func SidecarDisplaySession.delegate.getter // __ptrauth(f9d8)
+    func SidecarDisplaySession.delegate.setter // __ptrauth(cdbf)
+    func SidecarDisplaySession.delegate.modify // __ptrauth(4629)
+    func SidecarDisplaySession.codec.getter // __ptrauth(1518)
+    func SidecarDisplaySession.peerSupportsHIDReportExtensions.getter // __ptrauth(49de)
+    func peerSupportsHIDReportExtensions.setter.sub_10000f5cc // __ptrauth(cee7)
+    // <stripped> func peerSupportsHIDReportExtensions.modify __ptrauth(1bdb)
+    func SidecarDisplaySession.copyConfig() // __ptrauth(5b6a)
+    // <stripped> func serverCapabilities.getter __ptrauth(6462)
+    // <stripped> func serverCapabilities.setter __ptrauth(4b00)
+    // <stripped> func serverCapabilities.modify __ptrauth(9587)
+    func sub_10000f798 // method __ptrauth(2c90) (instance)
+    func sub_10000f7d4 // getter __ptrauth(2d64) (instance)
+    // <stripped> func getter __ptrauth(8aba) (instance)
+    func sub_10000f908 // getter __ptrauth(0c63) (instance)
+    // <stripped> func _shouldLockScreenOnClose.getter __ptrauth(1336)
+    // <stripped> func _shouldLockScreenOnClose.setter __ptrauth(0df2)
+    // <stripped> func _shouldLockScreenOnClose.modify __ptrauth(b312)
+    func SidecarDisplaySession.shouldLockScreenOnClose.getter // __ptrauth(718d)
+    func SidecarDisplaySession.shouldLockScreenOnClose.setter // __ptrauth(da9b)
+    func SidecarDisplaySession.shouldLockScreenOnClose.modify // __ptrauth(5d66)
+    func SidecarDisplaySession.safeInsets.getter // __ptrauth(271d)
+    func SidecarDisplaySession.safeInsets.setter // __ptrauth(6f1a)
+    func SidecarDisplaySession.safeInsets.modify // __ptrauth(5f04)
+    func SidecarDisplaySession.resolution.getter // __ptrauth(fcb6)
+    func SidecarDisplaySession.resolution.setter // __ptrauth(27d6)
+    func SidecarDisplaySession.resolution.modify // __ptrauth(00c7)
+    // <stripped> func queue.getter __ptrauth(7680)
+    // <stripped> func queue.setter __ptrauth(a2a2)
+    // <stripped> func queue.modify __ptrauth(17eb)
+    // <stripped> func accepted.getter __ptrauth(9ea7)
+    // <stripped> func accepted.setter __ptrauth(73bc)
+    // <stripped> func accepted.modify __ptrauth(a5af)
+    // <stripped> func getter __ptrauth(fd5b) (instance)
+    func SidecarDisplaySession.queue.getter // __ptrauth(5d40)
+    func SidecarDisplaySession.queue.setter // __ptrauth(665b)
+    func SidecarDisplaySession.queue.modify // __ptrauth(9465)
+    // <stripped> func negotiator.getter __ptrauth(3b33)
+    // <stripped> func negotiator.setter __ptrauth(7bda)
+    // <stripped> func negotiator.modify __ptrauth(0008)
+    // <stripped> func audioStreamNegotiator.getter __ptrauth(e912)
+    // <stripped> func audioStreamNegotiator.setter __ptrauth(e62e)
+    // <stripped> func audioStreamNegotiator.modify __ptrauth(61ff)
+    // <stripped> func uuid.getter __ptrauth(6035)
+    // <stripped> func uuid.setter __ptrauth(fe0e)
+    // <stripped> func uuid.modify __ptrauth(290c)
+    // <stripped> func videoConfig.getter __ptrauth(0442)
+    // <stripped> func videoConfig.setter __ptrauth(1ac6)
+    // <stripped> func videoConfig.modify __ptrauth(758b)
+    // <stripped> func coexSession.getter __ptrauth(2e92)
+    // <stripped> func coexSession.setter __ptrauth(5276)
+    // <stripped> func coexSession.modify __ptrauth(40ae)
+    // <stripped> func clock.getter __ptrauth(1e0a)
+    // <stripped> func clock.setter __ptrauth(935c)
+    // <stripped> func clock.modify __ptrauth(3862)
+    // <stripped> func settings.getter __ptrauth(1f8f)
+    // <stripped> func settings.setter __ptrauth(baa1)
+    // <stripped> func settings.modify __ptrauth(2b36)
+    func SidecarDisplaySession.clock.getter // __ptrauth(ef5f)
+    func hidSidecarStream.setter.sub_10000ff84 // __ptrauth(f5e2)
+    // <stripped> func hidSidecarStream.modify __ptrauth(523e)
+    // <stripped> func videoSidecarStream.getter __ptrauth(786e)
+    // <stripped> func videoSidecarStream.setter __ptrauth(d863)
+    // <stripped> func videoSidecarStream.modify __ptrauth(2b1f)
+    func sub_10000ffd0 // method __ptrauth(26e7) (instance)
+    // <stripped> func audioSidecarStream.getter __ptrauth(fd75)
+    // <stripped> func audioSidecarStream.setter __ptrauth(aab6)
+    // <stripped> func audioSidecarStream.modify __ptrauth(1015)
+    // <stripped> func videoStream.getter __ptrauth(6b1f)
+    func videoStream.setter.sub_100010110 // __ptrauth(38e2)
+    // <stripped> func videoStream.modify __ptrauth(0147)
+    // <stripped> func audioStream.getter __ptrauth(ab23)
+    // <stripped> func audioStream.setter __ptrauth(faac)
+    // <stripped> func audioStream.modify __ptrauth(fcdc)
+    // <stripped> func videoClient.getter __ptrauth(cd1e)
+    // <stripped> func videoClient.setter __ptrauth(586b)
+    // <stripped> func videoClient.modify __ptrauth(2595)
+    // <stripped> func configurationTimer.getter __ptrauth(82c2)
+    // <stripped> func configurationTimer.setter __ptrauth(46e3)
+    // <stripped> func configurationTimer.modify __ptrauth(cf19)
+    // <stripped> func getter __ptrauth(b14e) (instance)
+    // <stripped> func setter __ptrauth(5dc2) (instance)
+    // <stripped> func modify __ptrauth(77ad) (instance)
+    func SidecarDisplaySession.videoSlot.getter // __ptrauth(da20)
+    func sub_1000101fc // method __ptrauth(26bc) (instance)
+    func sub_1000106e0 // method __ptrauth(f52c) (instance)
+    func SidecarDisplaySession.sidecarRequest(_:receivedItems:) // __ptrauth(0a2a)
+    func sub_100011198 // method __ptrauth(9264) (instance)
+    // <stripped> func method __ptrauth(7a10) (instance)
+    func sub_100013368 // method __ptrauth(e258) (instance)
+    // <stripped> func method __ptrauth(93ac) (instance)
+    func sub_100013e68 // method __ptrauth(0f11) (instance)
+    // <stripped> func method __ptrauth(3404) (instance)
+    func sub_10001411c // method __ptrauth(bd44) (instance)
+    static func SidecarDisplaySession.__allocating_init(logger:request:config:) // __ptrauth(783d)
+    // <stripped> func getter __ptrauth(8ff1) (instance)
+    // <stripped> func setter __ptrauth(5e66) (instance)
+    // <stripped> func modify __ptrauth(c9d6) (instance)
+    func sub_100015530 // method __ptrauth(31c5) (instance)
+    func sub_100015bd8 // method __ptrauth(5d0f) (instance)
+    func sub_100015d78 // method __ptrauth(2c7b) (instance)
+    // <stripped> func method __ptrauth(41c0) (instance)
+    func sub_100015dfc // method __ptrauth(7267) (instance)
+    func sub_100016488 // method __ptrauth(6477) (instance)
+    // <stripped> func getter __ptrauth(e367) (instance)
+    func sub_100017388 // method __ptrauth(9937) (instance)
+    func SidecarDisplaySession.accept() // __ptrauth(93cc)
+    func sub_100017678 // method __ptrauth(5a8d) (instance)
+    func sub_100017958 // method __ptrauth(b7dc) (instance)
+    // <stripped> func method __ptrauth(7116) (instance)
+    func sub_100017c78 // method __ptrauth(abb0) (instance)
+    func SidecarDisplaySession.close(error:) // __ptrauth(ec5a)
+}
+
+class ContinuityDisplay.SidecarDisplaySession.SessionVideoClientDelegate: NSObject {
+  /* fields */
+    var owner: ContinuityDisplay.SidecarDisplaySession ?
+    let logger: nominal type descriptor for Logger
+  /* methods */
+    // <stripped> func owner.getter __ptrauth(cdbc)
+    // <stripped> func owner.setter __ptrauth(8122)
+    // <stripped> func owner.modify __ptrauth(f64e)
+    // <stripped> static func init __ptrauth(5516)
+    func sub_10001867c // method __ptrauth(51d8) (instance)
+    func sub_100018838 // method __ptrauth(8104) (instance)
+    func sub_1000188b4 // method __ptrauth(ef86) (instance)
+    func sub_100018930 // method __ptrauth(a16b) (instance)
+    func sub_1000189ac // method __ptrauth(6197) (instance)
+    func sub_100018b1c // method __ptrauth(1343) (instance)
+    func sub_100018c64 // method __ptrauth(9073) (instance)
+    func sub_100018ec8 // method __ptrauth(d5ab) (instance)
+    func sub_100018f50 // method __ptrauth(0f09) (instance)
+}
+
+class ContinuityDisplay.DisplayHIDDevice {
+  /* fields */
+    let logger: nominal type descriptor for Logger
+    var stream: SidecarStream
+  /* methods */
+    // <stripped> func stream.getter __ptrauth(007f)
+    // <stripped> func stream.setter __ptrauth(a1d6)
+    // <stripped> func stream.modify __ptrauth(0aab)
+    func sub_10001d9bc // getter __ptrauth(be8e) (instance)
+    // <stripped> static func init __ptrauth(5fb4)
+    func sub_10001dd08 // method __ptrauth(9f70) (instance)
+    func sub_10001de64 // method __ptrauth(9696) (instance)
+    // <stripped> func method __ptrauth(4499) (instance)
+    // <stripped> func method __ptrauth(eb5a) (instance)
+    func sub_10001e108 // method __ptrauth(a2fb) (instance)
+    // <stripped> func method __ptrauth(7c38) (instance)
+    func sub_10001e21c // method __ptrauth(2024) (instance)
+    // <stripped> func method __ptrauth(8bdd) (instance)
+    func sub_10001e304 // method __ptrauth(f253) (instance)
+    func sub_10001e520 // method __ptrauth(bd20) (instance)
+}
+
+class ContinuityDisplay.DisplayModalAlert: UIViewController {
+  /* fields */
+    var delegate: ContinuityDisplay.DisplayModalAlertDelegate ?
+    var error: protocol descriptor for Error ?
+    let disconnectButton: ContinuityDisplay.DisplayAlertButton
+    let mainLabel: UILabel
+    let secondaryLabel: UILabel
+    let debugLabel: UILabel
+    let generation: Int
+    var reason: ContinuityDisplay.DisplayModalAlert.Reason
+  /* methods */
+    // <stripped> func delegate.getter __ptrauth(503c)
+    // <stripped> func delegate.setter __ptrauth(9b91)
+    // <stripped> func delegate.modify __ptrauth(eed3)
+    // <stripped> func error.getter __ptrauth(49ae)
+    // <stripped> func error.setter __ptrauth(a6e9)
+    // <stripped> func error.modify __ptrauth(f402)
+    // <stripped> func reason.getter __ptrauth(3586)
+    // <stripped> func reason.setter __ptrauth(ac95)
+    // <stripped> func reason.modify __ptrauth(fe0a)
+    // <stripped> static func init __ptrauth(73df)
+    func sub_10001f4ac // method __ptrauth(44e5) (instance)
+}
+
+struct ContinuityDisplay.DisplayCapabilities {
+    let rawValue: Int
+}
+
+class ContinuityDisplay.DisplayModeCalculator {
+  /* fields */
+    let logger: nominal type descriptor for Logger
+    let resolution: (width: Int, height: Int, scale: Int)
+    let showTouchBar: Swift.Bool
+    let touchBarMargin: nominal type descriptor for CGFloat
+    let touchBarTop: Swift.Bool
+    let bottomInset: nominal type descriptor for CGFloat
+    let deviceScreenPrimitives: ContinuityDisplay.DeviceScreenPrimitives
+  /* methods */
+    // <stripped> static func init __ptrauth(e95b)
+    func sub_1000226f0 // method __ptrauth(1471) (instance)
+}
+
+enum ContinuityDisplay.DisplayModeCalculator.DisplayModeCalculatorError {
+    case invalidDevicePPI: Double
+}
+
+class ContinuityDisplay.DisplayAlertButton: UIButton {
+  /* methods */
+    func sub_1000230f8 // method __ptrauth(9324) (instance)
+    func sub_1000233a8 // method __ptrauth(cb2c) (instance)
+}
+
+class ContinuityDisplay.DisplayViewController: UIViewController {
+  /* fields */
+    var delegate: ContinuityDisplay.DisplayViewControllerDelegate ?
+    var touchController: ContinuityDisplay.TouchController ?
+    var sessionConfiguring: Swift.Bool
+    var displayView: UIView
+    let hidObserver: ContinuityDisplay.HIDEventObserver
+    var session: ContinuityDisplay.SidecarDisplaySession ?
+    var videoStream: ContinuityDisplay.VideoStream ?
+    var video: AVCRemoteVideoClient?
+    var _reconfiguring: Swift.Bool
+    var displayViewPointerInteraction: UIPointerInteraction?
+    var showSidebar: Swift.Bool
+    var receivedFirstFrame: Swift.Bool
+    var receivedConfigComplete: Swift.Bool
+    var transport: __C.SidecarTransport
+  /* methods */
+    // <stripped> func delegate.getter __ptrauth(2e96)
+    // <stripped> func delegate.setter __ptrauth(6fa3)
+    // <stripped> func delegate.modify __ptrauth(c33e)
+    // <stripped> func touchController.getter __ptrauth(67ae)
+    // <stripped> func touchController.setter __ptrauth(2a7f)
+    // <stripped> func touchController.modify __ptrauth(b261)
+    // <stripped> func sessionConfiguring.getter __ptrauth(3ff1)
+    // <stripped> func sessionConfiguring.setter __ptrauth(4f30)
+    // <stripped> func sessionConfiguring.modify __ptrauth(3942)
+    func displayView.getter.sub_100024474 // __ptrauth(c673)
+    func displayView.setter.sub_1000244e0 // __ptrauth(20c3)
+    // <stripped> func displayView.modify __ptrauth(4c4d)
+    // <stripped> func session.getter __ptrauth(5f7d)
+    // <stripped> func session.setter __ptrauth(546c)
+    // <stripped> func session.modify __ptrauth(685d)
+    // <stripped> func videoStream.getter __ptrauth(bf8f)
+    // <stripped> func videoStream.setter __ptrauth(39fe)
+    // <stripped> func videoStream.modify __ptrauth(85a2)
+    // <stripped> func video.getter __ptrauth(79ce)
+    // <stripped> func video.setter __ptrauth(323b)
+    // <stripped> func video.modify __ptrauth(5fb9)
+    // <stripped> func _reconfiguring.getter __ptrauth(d406)
+    // <stripped> func _reconfiguring.setter __ptrauth(1448)
+    // <stripped> func _reconfiguring.modify __ptrauth(95e2)
+    // <stripped> func displayViewPointerInteraction.getter __ptrauth(d39d)
+    // <stripped> func displayViewPointerInteraction.setter __ptrauth(de16)
+    // <stripped> func displayViewPointerInteraction.modify __ptrauth(5bce)
+    // <stripped> func showSidebar.getter __ptrauth(c38d)
+    // <stripped> func showSidebar.setter __ptrauth(b3f6)
+    // <stripped> func showSidebar.modify __ptrauth(6bba)
+    // <stripped> func receivedFirstFrame.getter __ptrauth(4a04)
+    // <stripped> func receivedFirstFrame.setter __ptrauth(1299)
+    // <stripped> func receivedFirstFrame.modify __ptrauth(5885)
+    // <stripped> func receivedConfigComplete.getter __ptrauth(2ecb)
+    // <stripped> func receivedConfigComplete.setter __ptrauth(2cb0)
+    // <stripped> func receivedConfigComplete.modify __ptrauth(f368)
+    // <stripped> func transport.getter __ptrauth(59b3)
+    // <stripped> func transport.setter __ptrauth(0a5d)
+    // <stripped> func transport.modify __ptrauth(d4bb)
+    func sub_100024844 // method __ptrauth(b4d3) (instance)
+    func sub_10002499c // method __ptrauth(4e8a) (instance)
+    func sub_100024ab8 // method __ptrauth(bfe1) (instance)
+    func sub_100024e7c // method __ptrauth(8e98) (instance)
+    func sub_100025b68 // method __ptrauth(7ad2) (instance)
+    func sub_100025e6c // method __ptrauth(ff62) (instance)
+    func sub_1000260d4 // method __ptrauth(8976) (instance)
+    // <stripped> func method __ptrauth(715e) (instance)
+}
+
+class ContinuityDisplay.DisplayMainViewController: SidecarServiceViewController {
+  /* fields */
+    var displayViewController: ContinuityDisplay.DisplayViewController
+    var displaySettings: ContinuityDisplay.DisplaySettings
+    var snapshot: ContinuityDisplay.DisplayMainViewController.Snapshot ?
+    var sidebarController: ContinuityDisplay.Sidebar.ViewController ?
+    var corners: Dictionary -> ContinuityDisplay.RoundedCornerView.Corner ContinuityDisplay.RoundedCornerView
+    var displayLeftConstraint: NSLayoutConstraint?
+    var displayRightConstraint: NSLayoutConstraint?
+    var currentTool: String
+    var keyboardResponder: ContinuityDisplay.DisplayMainViewController.KeyboardResponder ?
+    var reconfiguring: Swift.Bool
+    var _customUndoManager: ContinuityDisplay.DisplayMainViewController.DisplayUndoManager
+    var configurationAnimationDuration: Double
+    var displayContainer: UIView
+    var qosViewController: ContinuityDisplay.QOSControllerViewController ?
+    var displayShouldSleep: Swift.Bool
+    var presentedAlert: ContinuityDisplay.DisplayModalAlert ?
+    var reconfigureWatchdog: (objc_protocol 0x100064b00) ?
+    var usageSummary: ContinuityDisplay.DisplayMainViewController.UsageSummary ?
+    var referenceDisplayModeStatus: __C.ReferenceDisplayModeStatus
+    var disableUniversalControlAssertion: nominal type descriptor for AnyCancellable ?
+    var sessionIsReady: Swift.Bool
+    var dockShown: Swift.Bool
+    var menuOverrideEnabled: Swift.Bool
+    var _viewUpdateTimer: (objc_protocol 0x100064b00) ?
+  /* methods */
+    // <stripped> func displayViewController.getter __ptrauth(5935)
+    // <stripped> func displayViewController.setter __ptrauth(ce8c)
+    // <stripped> func displayViewController.modify __ptrauth(8c4c)
+    // <stripped> func displaySettings.getter __ptrauth(ca69)
+    // <stripped> func displaySettings.setter __ptrauth(66a9)
+    // <stripped> func displaySettings.modify __ptrauth(919c)
+    // <stripped> func snapshot.getter __ptrauth(e12d)
+    // <stripped> func snapshot.setter __ptrauth(9233)
+    func snapshot.modify.sub_1000325d8 // __ptrauth(7fcc)
+    // <stripped> func sidebarController.getter __ptrauth(2a19)
+    // <stripped> func sidebarController.setter __ptrauth(cf48)
+    // <stripped> func sidebarController.modify __ptrauth(74f0)
+    // <stripped> func corners.getter __ptrauth(9d20)
+    // <stripped> func corners.setter __ptrauth(e0c1)
+    // <stripped> func corners.modify __ptrauth(65c3)
+    // <stripped> func displayLeftConstraint.getter __ptrauth(9872)
+    // <stripped> func displayLeftConstraint.setter __ptrauth(04dd)
+    // <stripped> func displayLeftConstraint.modify __ptrauth(c889)
+    // <stripped> func displayRightConstraint.getter __ptrauth(4178)
+    // <stripped> func displayRightConstraint.setter __ptrauth(6938)
+    // <stripped> func displayRightConstraint.modify __ptrauth(f47a)
+    // <stripped> func currentTool.getter __ptrauth(1ed6)
+    // <stripped> func currentTool.setter __ptrauth(f309)
+    // <stripped> func currentTool.modify __ptrauth(3749)
+    // <stripped> func keyboardResponder.getter __ptrauth(b063)
+    // <stripped> func keyboardResponder.setter __ptrauth(b86b)
+    // <stripped> func keyboardResponder.modify __ptrauth(e45e)
+    // <stripped> func reconfiguring.getter __ptrauth(956b)
+    // <stripped> func reconfiguring.setter __ptrauth(dd4a)
+    // <stripped> func reconfiguring.modify __ptrauth(a8b4)
+    // <stripped> func _customUndoManager.getter __ptrauth(bb70)
+    // <stripped> func _customUndoManager.setter __ptrauth(94d3)
+    // <stripped> func _customUndoManager.modify __ptrauth(493c)
+    // <stripped> func configurationAnimationDuration.getter __ptrauth(f8b5)
+    // <stripped> func configurationAnimationDuration.setter __ptrauth(eee5)
+    // <stripped> func configurationAnimationDuration.modify __ptrauth(9157)
+    // <stripped> func displayContainer.getter __ptrauth(3eab)
+    // <stripped> func displayContainer.setter __ptrauth(dc99)
+    // <stripped> func displayContainer.modify __ptrauth(5161)
+    // <stripped> func qosViewController.getter __ptrauth(eee3)
+    // <stripped> func qosViewController.setter __ptrauth(f7b9)
+    // <stripped> func qosViewController.modify __ptrauth(a010)
+    // <stripped> func displayShouldSleep.getter __ptrauth(58d9)
+    // <stripped> func displayShouldSleep.setter __ptrauth(c9a8)
+    // <stripped> func displayShouldSleep.modify __ptrauth(f9cc)
+    // <stripped> func presentedAlert.getter __ptrauth(802f)
+    // <stripped> func presentedAlert.setter __ptrauth(3948)
+    // <stripped> func presentedAlert.modify __ptrauth(c0d0)
+    // <stripped> func reconfigureWatchdog.getter __ptrauth(fc8f)
+    // <stripped> func reconfigureWatchdog.setter __ptrauth(e3a3)
+    // <stripped> func reconfigureWatchdog.modify __ptrauth(f35c)
+    // <stripped> func usageSummary.getter __ptrauth(73bd)
+    // <stripped> func usageSummary.setter __ptrauth(693d)
+    func usageSummary.modify.sub_100032624 // __ptrauth(85de)
+    // <stripped> func referenceDisplayModeStatus.getter __ptrauth(7ec3)
+    // <stripped> func referenceDisplayModeStatus.setter __ptrauth(009e)
+    // <stripped> func referenceDisplayModeStatus.modify __ptrauth(60ad)
+    // <stripped> func disableUniversalControlAssertion.getter __ptrauth(9102)
+    // <stripped> func disableUniversalControlAssertion.setter __ptrauth(baf7)
+    // <stripped> func disableUniversalControlAssertion.modify __ptrauth(5931)
+    // <stripped> func sessionIsReady.getter __ptrauth(6b09)
+    // <stripped> func sessionIsReady.setter __ptrauth(24eb)
+    // <stripped> func sessionIsReady.modify __ptrauth(07d7)
+    // <stripped> func getter __ptrauth(c332) (instance)
+    // <stripped> func dockShown.getter __ptrauth(c878)
+    // <stripped> func dockShown.setter __ptrauth(9ef1)
+    // <stripped> func dockShown.modify __ptrauth(76c5)
+    // <stripped> func menuOverrideEnabled.getter __ptrauth(add5)
+    // <stripped> func menuOverrideEnabled.setter __ptrauth(67fd)
+    // <stripped> func menuOverrideEnabled.modify __ptrauth(07fd)
+    func sub_10003270c // getter __ptrauth(0e0c) (instance)
+    func sub_100033388 // method __ptrauth(9da6) (instance)
+    func sub_100033470 // method __ptrauth(473c) (instance)
+    func sub_100033ff4 // method __ptrauth(ad09) (instance)
+    func sub_100034200 // method __ptrauth(ea28) (instance)
+    // <stripped> func _viewUpdateTimer.getter __ptrauth(020c)
+    // <stripped> func _viewUpdateTimer.setter __ptrauth(551b)
+    // <stripped> func _viewUpdateTimer.modify __ptrauth(e69e)
+}
+
+class ContinuityDisplay.DisplayMainViewController.DisplayUndoManager: NSUndoManager {
+  /* fields */
+    var delegate: ContinuityDisplay.Requestable ?
+  /* methods */
+    // <stripped> func delegate.getter __ptrauth(78ab)
+    // <stripped> func delegate.setter __ptrauth(d82e)
+    // <stripped> func delegate.modify __ptrauth(b46f)
+}
+
+class ContinuityDisplay.TouchController: UIResponder {
+  /* fields */
+    var delegate: ContinuityDisplay.TouchControllerDelegate ?
+    var timeSyncClock: SidecarTimeSync.Clock ?
+    let pencilInteraction: UIPencilInteraction
+    let pan: UIPanGestureRecognizer
+    let pinch: UIPinchGestureRecognizer
+    let rotate: UIRotationGestureRecognizer
+    let view: UIView
+    let multitouchReport: SidecarHID.MultitouchReport
+    var multitouchState: ContinuityDisplay.TouchController.MultitouchState
+  /* methods */
+    // <stripped> func delegate.getter __ptrauth(30c3)
+    // <stripped> func delegate.setter __ptrauth(1e72)
+    // <stripped> func delegate.modify __ptrauth(102f)
+    // <stripped> func timeSyncClock.getter __ptrauth(7fdc)
+    // <stripped> func timeSyncClock.setter __ptrauth(30db)
+    // <stripped> func timeSyncClock.modify __ptrauth(39f7)
+    // <stripped> static func init __ptrauth(6548)
+    func HIDRequest.request.getter // __ptrauth(2be1)
+    func HIDRequest.request.getter // __ptrauth(c682)
+    // <stripped> func multitouchState.getter __ptrauth(af29)
+    // <stripped> func multitouchState.setter __ptrauth(8edf)
+    // <stripped> func multitouchState.modify __ptrauth(9007)
+    func sub_100041ea0 // method __ptrauth(72db) (instance)
+}
+
+struct __C.IOHIDReportType {
+    var rawValue: nominal type descriptor for UInt32
+}
+
+typealias IOHIDUserDeviceRef IOHIDUserDevice
+class __C.IOHIDUserDeviceRef {}
+
+typealias IOHIDEventRef IOHIDEvent
+class __C.IOHIDEventRef {}
+
+struct SidecarHID.HIDDescriptor {}
+
+struct SidecarHID.HIDEvent {
+    let _ioHIDEvent: __C.IOHIDEvent
+}
+
+class SidecarHID.HIDReport {
+  /* fields */
+    let bytes: UnsafeMutableBufferPointer -> nominal type descriptor for UInt8
+  /* methods */
+    static func HIDReport.__allocating_init(count:) // __ptrauth(fca2)
+}
+
+struct SidecarHID.HIDRequest {
+    let request: SidecarHID.HIDRequest.Request
+    let rawData: nominal type descriptor for Data
+}
+
+struct SidecarHID.HIDFixed {
+    var rawValue: nominal type descriptor for Int32
+}
+
+struct SidecarHID.HIDUsage {
+    let _page: nominal type descriptor for UInt16
+    let _usage: nominal type descriptor for UInt16
+}
+
+struct SidecarHID.KeyboardReport {
+    let report: SidecarHID.HIDReport
+}
+
+struct SidecarHID.MultitouchReport {
+    let report: SidecarHID.HIDReport
+}
+
+struct SidecarHID.PencilReport {
+    var report: SidecarHID.HIDReport
+}
+
+struct SidecarHID.SqueezeGestureReport {
+    let report: SidecarHID.HIDReport
+}
+
+struct SidecarHID.TouchReport {
+    let report: SidecarHID.HIDReport
+}
+
+struct SidecarHID.TouchReport.Contact {
+    var report: SidecarHID.HIDReport
+    let _offset: nominal type descriptor for UInt8
+    let mutable: Swift.Bool
+    var identity: nominal type descriptor for UInt8 ?
+    var swipePending: Bool?
+    var swipeLocked: Bool?
+    var swipeUp: Bool?
+    var swipeDown: Bool?
+    var swipeLeft: Bool?
+    var swipeRight: Bool?
+    var cancel: Bool?
+}
+
+class SidecarHID.TouchTracker {
+  /* fields */
+    var allTouches: SidecarHID.TouchMask
+    var tracking: SidecarHID.TouchMask
+  /* methods */
+    static func TouchTracker.__allocating_init() // __ptrauth(7112)
+    // <stripped> func allTouches.getter __ptrauth(c7a4)
+    // <stripped> func allTouches.setter __ptrauth(9725)
+    // <stripped> func allTouches.modify __ptrauth(65e2)
+    // <stripped> func tracking.getter __ptrauth(0280)
+    // <stripped> func tracking.setter __ptrauth(5e34)
+    // <stripped> func tracking.modify __ptrauth(28db)
+    func TouchTracker.track<A>(_:where:) // __ptrauth(3da4)
+}
+
+class SidecarHID.TouchTrackerLog {
+  /* fields */
+    var epochs: Array -> SidecarHID.TouchTrackerLog.TouchEpoch
+    let tracker: SidecarHID.TouchTracker
+  /* methods */
+    static func TouchTrackerLog.__allocating_init() // __ptrauth(4cbe)
+    // <stripped> func epochs.getter __ptrauth(c2de)
+    // <stripped> func epochs.setter __ptrauth(5a0f)
+    // <stripped> func epochs.modify __ptrauth(3785)
+    func TouchTrackerLog.track<A>(_:timestamp:where:) // __ptrauth(5ad6)
+    func TouchTrackerLog.find(index:timestamp:) // __ptrauth(95bc)
+}
+
+struct SidecarHID.TouchTrackerLog.TouchEpoch {
+    let timestamp: nominal type descriptor for UInt64
+    let mask: SidecarHID.TouchMask
+}
+
+struct SidecarHID.TouchMask {
+    var rawValue: UInt
+}
+

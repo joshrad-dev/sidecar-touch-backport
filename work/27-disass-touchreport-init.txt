@@ -1,0 +1,130 @@
+
+sub_100053d08:
+0x100053d08:  7f 23 03 d5   pacibsp
+0x100053d0c:  f4 4f be a9   stp	x20, x19, [sp, #-0x20]!
+0x100053d10:  fd 7b 01 a9   stp	fp, lr, [sp, #0x10]
+0x100053d14:  fd 43 00 91   add	fp, sp, #0x10
+0x100053d18:  00 00 80 d2   mov	x0, #0
+0x100053d1c:  2d df ff 97   bl	0x10004b9d0
+0x100053d20:  91 fa ff 97   bl	0x100052764
+0x100053d24:  f4 03 00 aa   mov	x20, x0
+0x100053d28:  60 03 80 52   mov	w0, #0x1b
+0x100053d2c:  91 d5 ff 97   bl	0x100049370
+0x100053d30:  f4 03 00 aa   mov	x20, x0
+0x100053d34:  a0 00 80 52   mov	w0, #0x5
+0x100053d38:  01 00 80 d2   mov	x1, #0
+0x100053d3c:  33 e0 ff 97   bl	0x10004be08
+0x100053d40:  e0 03 14 aa   mov	x0, x20
+0x100053d44:  fd 7b 41 a9   ldp	fp, lr, [sp, #0x10]
+0x100053d48:  f4 4f c2 a8   ldp	x20, x19, [sp], #0x20
+0x100053d4c:  ff 0f 5f d6   retab
+
+sub_100053d50:
+0x100053d50:  7f 23 03 d5   pacibsp
+0x100053d54:  f8 5f bc a9   stp	x24, x23, [sp, #-0x40]!
+0x100053d58:  f6 57 01 a9   stp	x22, x21, [sp, #0x10]
+0x100053d5c:  f4 4f 02 a9   stp	x20, x19, [sp, #0x20]
+0x100053d60:  fd 7b 03 a9   stp	fp, lr, [sp, #0x30]
+0x100053d64:  fd c3 00 91   add	fp, sp, #0x30
+0x100053d68:  f3 03 01 aa   mov	x19, x1
+0x100053d6c:  f5 03 00 aa   mov	x21, x0
+0x100053d70:  00 00 80 d2   mov	x0, #0
+0x100053d74:  90 23 00 94   bl	j_type metadata accessor for Foundation.Data.Iterator
+0x100053d78:  f6 03 00 aa   mov	x22, x0
+0x100053d7c:  e9 03 00 aa   mov	x9, x0
+0x100053d80:  28 8d 5f f8   ldr	x8, [x9, #-0x8]!
+0x100053d84:  f0 03 08 aa   mov	x16, x8
+0x100053d88:  f1 03 09 aa   mov	x17, x9
+0x100053d8c:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x100053d90:  30 1a c1 da   autda	x16, x17
+0x100053d94:  f1 03 10 aa   mov	x17, x16
+0x100053d98:  f1 47 c1 da   xpacd	x17
+0x100053d9c:  1f 02 11 eb   cmp	x16, x17
+0x100053da0:  40 00 00 54   b.eq	loc_100053da8 ; ⤵ 0x8
+0x100053da4:  40 8e 38 d4   brk	#0xc472
+0x100053da8:  ; loc_100053da8
+0x100053da8:  f7 03 10 aa   mov	x23, x16
+0x100053dac:  f0 03 08 aa   mov	x16, x8
+0x100053db0:  f1 03 09 aa   mov	x17, x9
+0x100053db4:  f1 c7 e5 f2   movk	x17, #0x2e3f, lsl #0x30
+0x100053db8:  30 1a c1 da   autda	x16, x17
+0x100053dbc:  08 22 40 f9   ldr	x8, [x16, #0x40]
+0x100053dc0:  e9 03 08 aa   mov	x9, x8
+0x100053dc4:  91 01 00 b0   adrp	x17, 0x100084000
+0x100053dc8:  31 22 17 91   add	x17, x17, #0x5c8 ; __got.___chkstk_darwin
+0x100053dcc:  30 02 40 f9   ldr	x16, [x17]
+0x100053dd0:  11 0a 3f d7   blraa	x16, x17
+0x100053dd4:  e9 03 00 91   mov	x9, sp
+0x100053dd8:  08 3d 00 91   add	x8, x8, #0xf
+0x100053ddc:  08 ed 7c 92   and	x8, x8, #0xfffffffffffffff0
+0x100053de0:  38 01 08 cb   sub	x24, x9, x8
+0x100053de4:  1f 03 00 91   mov	sp, x24
+0x100053de8:  00 00 80 d2   mov	x0, #0
+0x100053dec:  f9 de ff 97   bl	0x10004b9d0
+0x100053df0:  5d fa ff 97   bl	0x100052764
+0x100053df4:  f4 03 00 aa   mov	x20, x0
+0x100053df8:  60 03 80 52   mov	w0, #0x1b
+0x100053dfc:  5d d5 ff 97   bl	0x100049370
+0x100053e00:  f4 03 00 aa   mov	x20, x0
+0x100053e04:  00 00 80 d2   mov	x0, #0
+0x100053e08:  e1 03 15 aa   mov	x1, x21
+0x100053e0c:  e2 03 13 aa   mov	x2, x19
+0x100053e10:  4d 23 00 94   bl	j_Foundation.Data._Representation.subscript.getter : (Swift.Int) -> Swift.UInt8
+0x100053e14:  08 1c 00 12   and	w8, w0, #0xff
+0x100053e18:  1f 15 00 71   cmp	w8, #0x5
+0x100053e1c:  a1 02 00 54   b.ne	loc_100053e70 ; ⤵ 0x54
+0x100053e20:  e0 03 15 aa   mov	x0, x21
+0x100053e24:  e1 03 13 aa   mov	x1, x19
+0x100053e28:  57 23 00 94   bl	j_Foundation.Data.count.getter : Swift.Int
+0x100053e2c:  1f 5c 00 f1   cmp	x0, #0x17
+0x100053e30:  0b 02 00 54   b.lt	loc_100053e70 ; ⤵ 0x40
+0x100053e34:  81 0a 41 a9   ldp	x1, x2, [x20, #0x10]
+0x100053e38:  e0 03 18 aa   mov	x0, x24
+0x100053e3c:  e3 03 15 aa   mov	x3, x21
+0x100053e40:  e4 03 13 aa   mov	x4, x19
+0x100053e44:  30 23 00 94   bl	j_Foundation.Data._copyContents(initializing: Swift.UnsafeMutableBufferPointer<Swift.UInt8>) -> (Foundation.Data.Iterator, Swift.Int)
+0x100053e48:  e0 03 15 aa   mov	x0, x21
+0x100053e4c:  e1 03 13 aa   mov	x1, x19
+0x100053e50:  62 ce fe 97   bl	0x1000077d8
+0x100053e54:  e8 8e 40 f8   ldr	x8, [x23, #0x8]!
+0x100053e58:  e0 03 18 aa   mov	x0, x24
+0x100053e5c:  e1 03 16 aa   mov	x1, x22
+0x100053e60:  f1 03 17 aa   mov	x17, x23
+0x100053e64:  11 9f e0 f2   movk	x17, #0x4f8, lsl #0x30
+0x100053e68:  11 09 3f d7   blraa	x8, x17
+0x100053e6c:  06 00 00 14   b	loc_100053e84 ; ⤵ 0x18
+0x100053e70:  ; loc_100053e70
+0x100053e70:  dd 29 00 94   bl	j__swift_release_x20
+0x100053e74:  e0 03 15 aa   mov	x0, x21
+0x100053e78:  e1 03 13 aa   mov	x1, x19
+0x100053e7c:  57 ce fe 97   bl	0x1000077d8
+0x100053e80:  14 00 80 d2   mov	x20, #0
+0x100053e84:  ; loc_100053e84
+0x100053e84:  e0 03 14 aa   mov	x0, x20
+0x100053e88:  bf c3 00 d1   sub	sp, fp, #0x30
+0x100053e8c:  fd 7b 43 a9   ldp	fp, lr, [sp, #0x30]
+0x100053e90:  f4 4f 42 a9   ldp	x20, x19, [sp, #0x20]
+0x100053e94:  f6 57 41 a9   ldp	x22, x21, [sp, #0x10]
+0x100053e98:  f8 5f c4 a8   ldp	x24, x23, [sp], #0x40
+0x100053e9c:  ff 0f 5f d6   retab
+
+sub_100053ea0:
+0x100053ea0:  7f 23 03 d5   pacibsp
+0x100053ea4:  ff 03 01 d1   sub	sp, sp, #0x40
+0x100053ea8:  f6 57 01 a9   stp	x22, x21, [sp, #0x10]
+0x100053eac:  f4 4f 02 a9   stp	x20, x19, [sp, #0x20]
+0x100053eb0:  fd 7b 03 a9   stp	fp, lr, [sp, #0x30]
+0x100053eb4:  fd c3 00 91   add	fp, sp, #0x30
+0x100053eb8:  f3 03 00 aa   mov	x19, x0
+0x100053ebc:  00 00 80 d2   mov	x0, #0
+0x100053ec0:  c4 de ff 97   bl	0x10004b9d0
+0x100053ec4:  28 fa ff 97   bl	0x100052764
+0x100053ec8:  f4 03 00 aa   mov	x20, x0
+0x100053ecc:  60 03 80 52   mov	w0, #0x1b
+0x100053ed0:  28 d5 ff 97   bl	0x100049370
+0x100053ed4:  f5 03 00 aa   mov	x21, x0
+0x100053ed8:  00 00 80 d2   mov	x0, #0
+0x100053edc:  f4 03 13 aa   mov	x20, x19
+0x100053ee0:  cb df ff 97   bl	0x10004be0c
+0x100053ee4:  08 1c 00 12   and	w8, w0, #0xff
+
